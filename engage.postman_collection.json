@@ -1,0 +1,1602 @@
+{
+	"info": {
+		"_postman_id": "57575d19-c3bf-4496-abd3-a9b7ab182bf3",
+		"name": "engage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"sumrender\",\r\n    \"email\": \"sumrenders@gmail.com\",\r\n    \"password\": \"msengage\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Register User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"sumrender\",\r\n    \"email\": \"sumrenders@gmail.com\",\r\n    \"password\": \"msengage\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/register",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIzMTFhMzA2Y2EzZTQwYTkxOWRjNCIsImlhdCI6MTY1MzI4OTI0MiwiZXhwIjo1MjUzMjg5MjQyfQ.m8I6TnxsX7rtkgF1R1ywiFdjNx6eITeBFFjm2WBpwfs; Path=/; Expires=Mon, 06 Jun 2022 07:00:42 GMT; HttpOnly"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "600"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"258-gLnytT6AmJB+v41cJdlFsaEmqo0\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 07:00:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"user\": {\n        \"name\": \"sumrender\",\n        \"email\": \"sumrenders@gmail.com\",\n        \"password\": \"$2a$10$UJpo8dNBaFHE5yzs8R4/Juq1uvEfJUGEtPP40mMHfN86AON39dPSu\",\n        \"image\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653285743/wvbvqbd7mvvhh2yhq4v2.png\",\n        \"role\": \"user\",\n        \"resetPasswordToken\": \"empty\",\n        \"_id\": \"628b311a306ca3e40a919dc4\",\n        \"createdAt\": \"2022-05-23T07:00:42.793Z\",\n        \"resetPasswordExpire\": \"2022-05-23T07:00:42.793Z\",\n        \"__v\": 0\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIzMTFhMzA2Y2EzZTQwYTkxOWRjNCIsImlhdCI6MTY1MzI4OTI0MiwiZXhwIjo1MjUzMjg5MjQyfQ.m8I6TnxsX7rtkgF1R1ywiFdjNx6eITeBFFjm2WBpwfs\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@admin.com\",\r\n    \"password\": \"msengage\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"sumrenders@gmail.com\",\r\n    \"password\": \"msengage\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/login",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIzMTFhMzA2Y2EzZTQwYTkxOWRjNCIsImlhdCI6MTY1MzI4OTI4MSwiZXhwIjo1MjUzMjg5MjgxfQ.QpG3Yoo2caL6_9hWNM5kSCNPOQritulRU-aDmP0vU7o; Path=/; Expires=Mon, 06 Jun 2022 07:01:21 GMT; HttpOnly"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "600"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"258-hoZ3s6GauNig9jryft76e+v1dUI\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 07:01:21 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"user\": {\n        \"_id\": \"628b311a306ca3e40a919dc4\",\n        \"name\": \"sumrender\",\n        \"email\": \"sumrenders@gmail.com\",\n        \"password\": \"$2a$10$UJpo8dNBaFHE5yzs8R4/Juq1uvEfJUGEtPP40mMHfN86AON39dPSu\",\n        \"image\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653285743/wvbvqbd7mvvhh2yhq4v2.png\",\n        \"role\": \"user\",\n        \"resetPasswordToken\": \"empty\",\n        \"createdAt\": \"2022-05-23T07:00:42.793Z\",\n        \"resetPasswordExpire\": \"2022-05-23T07:00:42.793Z\",\n        \"__v\": 0\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIzMTFhMzA2Y2EzZTQwYTkxOWRjNCIsImlhdCI6MTY1MzI4OTI4MSwiZXhwIjo1MjUzMjg5MjgxfQ.QpG3Yoo2caL6_9hWNM5kSCNPOQritulRU-aDmP0vU7o\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Logout User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/logout",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Logout User",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/logout",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=j%3Anull; Path=/; Expires=Mon, 23 May 2022 07:01:35 GMT; HttpOnly"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "39"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"27-q41E6UoZumFK4+eV7Lof0+f/3nk\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 07:01:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Logged Out\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Forgot Pasword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test1@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/password/forgot",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"password",
+								"forgot"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Forgot Pasword",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"sumrenders@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/password/forgot",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"password",
+										"forgot"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "76"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4c-h/ivPqNtcGMTGYWz1wRj/9zOX9g\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 07:21:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Email sent to sumrenders@gmail.com successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get User Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/me",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password Token",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"meengage\",\r\n    \"confirmPassword\": \"meengage\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/password/reset/628b26a3e4bc9284915c733f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"password",
+								"reset",
+								"628b26a3e4bc9284915c733f"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Reset Password Token",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"meengage\",\r\n    \"confirmPassword\": \"meengage\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/password/reset/628b26a3e4bc9284915c733f",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"password",
+										"reset",
+										"628b26a3e4bc9284915c733f"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIyNmEzZTRiYzkyODQ5MTVjNzMzZiIsImlhdCI6MTY1MzI5NTUyNiwiZXhwIjoxNjUzMjk5MTI2fQ.T_fnzJrASCBrEYm3xz_SxlDJAe1SgJtU7gngacNKxCE; Path=/; Expires=Mon, 06 Jun 2022 08:45:26 GMT; HttpOnly"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "511"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1ff-x4NpSlK8TT+lx8Fu7r+KiXi0zV8\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 08:45:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"user\": {\n        \"_id\": \"628b26a3e4bc9284915c733f\",\n        \"name\": \"test\",\n        \"email\": \"test@gmail.com\",\n        \"image\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653285743/wvbvqbd7mvvhh2yhq4v2.png\",\n        \"role\": \"user\",\n        \"createdAt\": \"2022-05-23T06:16:03.847Z\",\n        \"__v\": 0,\n        \"password\": \"$2a$10$ZQP2VFzXcJZwPeKkS6.5TO8NmeRBIubQt4.tVlJaBPbEr0ROoz9Yi\"\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIyNmEzZTRiYzkyODQ5MTVjNzMzZiIsImlhdCI6MTY1MzI5NTUyNiwiZXhwIjoxNjUzMjk5MTI2fQ.T_fnzJrASCBrEYm3xz_SxlDJAe1SgJtU7gngacNKxCE\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldPassword\": \"meengage\",\r\n    \"newPassword\": \"msengage\",\r\n    \"confirmPassword\": \"msengage\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/password/update",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"password",
+								"update"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Password",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"oldPassword\": \"meengage\",\r\n    \"newPassword\": \"msengage\",\r\n    \"confirmPassword\": \"msengage\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/password/update",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"password",
+										"update"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIyNmEzZTRiYzkyODQ5MTVjNzMzZiIsImlhdCI6MTY1MzI5NTg5OSwiZXhwIjoxNjUzMjk5NDk5fQ.wFCrfwm9MNe5KVPXgGQK8m7hohx8cgAZyiPH84zhqq4; Path=/; Expires=Mon, 06 Jun 2022 08:51:39 GMT; HttpOnly"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "608"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"260-YDjzTCLPmvm/Kv8CXMDIvvYjF1Y\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 08:51:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"user\": {\n        \"resetPasswordToken\": \"628b26a3e4bc9284915c733f\",\n        \"_id\": \"628b26a3e4bc9284915c733f\",\n        \"name\": \"test\",\n        \"email\": \"test@gmail.com\",\n        \"password\": \"$2a$10$DbqYs8rT05CujL2gem6S4ugErqWepXJpjOS9NQBHjhsVurSv0/Xbi\",\n        \"image\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653285743/wvbvqbd7mvvhh2yhq4v2.png\",\n        \"role\": \"user\",\n        \"createdAt\": \"2022-05-23T06:16:03.847Z\",\n        \"__v\": 0,\n        \"resetPasswordExpire\": \"2022-05-23T08:51:38.954Z\"\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIyNmEzZTRiYzkyODQ5MTVjNzMzZiIsImlhdCI6MTY1MzI5NTg5OSwiZXhwIjoxNjUzMjk5NDk5fQ.wFCrfwm9MNe5KVPXgGQK8m7hohx8cgAZyiPH84zhqq4\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Create Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Reading Glasses\",\r\n    \"description\": \"glasses with uv protection\",\r\n    \"price\": \"2000\",    \r\n    \"category\": [\"Glasses\", \"unisex\"],\r\n    \"stock\": 200,\r\n    \"images\": [\r\n    \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\",\r\n    \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\"\r\n]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/admin/product/new",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"admin",
+								"product",
+								"new"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Product",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Reading Glasses\",\r\n    \"description\": \"glasses with uv protection\",\r\n    \"price\": \"2000\",    \r\n    \"category\": \"Glasses\",\r\n    \"stock\": 200,\r\n    \"images\": [\r\n    {\"image\": \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\"},\r\n    {\"image\": \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\"}\r\n]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/admin/product/new",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"admin",
+										"product",
+										"new"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "573"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"23d-yWcwpV3AlMy4/NP3kCckJOUHMvo\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 09:25:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"product\": {\n        \"name\": \"Reading Glasses\",\n        \"description\": \"glasses with uv protection\",\n        \"price\": 2000,\n        \"ratings\": 0,\n        \"images\": [\n            {\n                \"image\": \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963a\"\n            },\n            {\n                \"image\": \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963b\"\n            }\n        ],\n        \"category\": \"Glasses\",\n        \"stock\": 200,\n        \"numOfReviews\": 0,\n        \"user\": \"628b26a3e4bc9284915c733f\",\n        \"_id\": \"628b53087ae7d8cf0b3a9639\",\n        \"reviews\": [],\n        \"createdAt\": \"2022-05-23T09:25:28.393Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Create Products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": [\r\n  \r\n{\r\n  \"name\": \"lipstick\",\r\n  \"description\": \"The Maybelline Color Sensational Creamy Mattes Lipstick has a unique, velvety matte cream formula that offers a non-drying & un-crackable finish that stays comfortably on your lips through the day.These hydrating Maybelline lipstick shades are are infused with honey nectar to keep your lips moisturized all day long. The Colour Sensation lipsticks glide on your lips smoothly for a comfortable wear...\",\r\n  \"price\": 199,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/51RwlW7m+6L._SY355_.jpg\", \"https://m.media-amazon.com/images/I/61IH97u0jqL._SX355_.jpg\"],\r\n  \"category\": [\"Female\", 15, 50, \"Makeup\",\"Lips\"],\r\n  \"stock\": 50,\r\n  \"link\" : \"https://www.amazon.in/Maybelline-York-Lipstick-Touch-Spice/dp/B00N6YEI6O/ref=sr_1_5?adgrpid=61481397000&ext_vrnc=hi&gclid=EAIaIQobChMI1Ln129j49wIVZJhmAh0ZTwSQEAAYAiAAEgIUsvD_BwE&hvadid=294111526680&hvdev=c&hvlocphy=9062113&hvnetw=g&hvqmt=e&hvrand=1602218686621912316&hvtargid=kwd-296133905002&hydadcr=14982_1821401&keywords=lipstick%27&qid=1653414737&sr=8-5&th=1\"\r\n  },\r\n  \r\n  \r\n  {\r\n  \"name\": \"lip balm\",\r\n  \"description\": \"BEETROOT LIP AND CHEEK TINT: Nourish your lips and cheeks with our all-natural cheek and lip moisturizer! Our lip balm melts and blends effortlessly onto the skin for a natural flush. Its creamy formula is packed with natural ingredients for lightening and moisturizing the lips and cheeks. Our smooth cheek tint gives your cheeks and lips the perfect pop of rosy pink\",\r\n  \"price\": 499,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/61um+vJjadL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/616l7KUDJoL._SY355_.jpg\"],\r\n  \"category\": [\"Female\", 10, 60, \"Makeup\",\"Lips\"],\r\n  \"stock\": 30,\r\n  \"link\" :\"https://www.amazon.in/dp/B08MXFG97R/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=18ffb749aef59be50391d15b7744fbc1&hsa_cr_id=6045912660602&pd_rd_plhdr=t&pd_rd_r=65ef3742-c8f5-4f1b-a1cd-2454f6cc6a87&pd_rd_w=aLy9x&pd_rd_wg=2hX3x&ref_=sbx_be_s_sparkle_mcd_asin_0_img\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Face Cream\",\r\n  \"description\": \"Repairs the skin Moisturizes skin Gives radiant glowing skin Lightens the skin tone Evens skin tone Maximum Shelf Life 36 Months\",\r\n  \"price\": 380,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/51sm4DTpGWL._SX425_.jpg\", \"https://m.media-amazon.com/images/I/616IaVgqJEL._SX425_.jpg\"],\r\n  \"category\": [\"Female\", 25, 50, \"Makeup\", \"Face\"],\r\n  \"stock\": 35,\r\n  \"link\" :\"https://www.amazon.in/Lakme-Absolute-Perfect-Radiance-Lightening/dp/B01C42I1QG/ref=sr_1_4_sspa?keywords=face+cream+for+women&qid=1653415093&sprefix=face+crea%2Caps%2C437&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOEkyUENKMFYyM1FZJmVuY3J5cHRlZElkPUEwMjY3Njg5MjlUMVBXUlM0VDVNQyZlbmNyeXB0ZWRBZElkPUEwMTI5NzA4MTdFUVFZM0U4VzY5QSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Face lotion\",\r\n  \"description\": \"RICH INDULGENT MOISTURISATION - Natural oils in this lotion gives extra care and nourishment to dry skin even during winters DELICIOUS FRAGRANCE- This fragrance leaves a buttery, sweet vanilla scent on skin OIL NOURISH- Nourishing oils from Macadamia Nut can deeply moisturise skin and keep it soft for long. An ideal ingredient for skin prone to extra dryness\",  \"price\": 249,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/61+niuKi0hL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/61Rw2rlanVL._SY355_.jpg\"],\r\n  \"category\": [\"Female\", 20, 45, \"Makeup\" ,\"Lotion\"],\r\n  \"stock\": 60,\r\n  \"link\" :\"https://www.amazon.in/Buds-Berries-Macadamia-Vanilla-Moisturisation/dp/B09DYK7WRW/ref=sr_1_1_sspa?crid=M84CUDXXSB74&keywords=lotion%2Bfor%2Bwomen&qid=1653415239&sprefix=lotion%2Bfor%2Bwome%2Caps%2C384&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFCSzExR1NEOFNVOSZlbmNyeXB0ZWRJZD1BMDY5MjQ5NDIyNkNGMzZCT1FZVDYmZW5jcnlwdGVkQWRJZD1BMDYzMTkzNjE5OVRRMTUzRzk0TjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1\"\r\n  },\r\n  \r\n  \r\n  {\r\n  \"name\": \"Shampoo\",\r\n  \"description\": \"Goodness of 7 Natural Ingredients: Henna, Amla, Shikakai, Almond, Hibiscus, Reetha, Olive Gentle cleansing & conditioning to give you smooth, shiny, and nourished hair Power of Henna & Amla to give you problem free hair\",\r\n  \"price\": 228,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/71eAuQlZxPL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/81ktjBwfjqL._SY355_.jpg\"],\r\n  \"category\": [\"Female\", 12, 60, \"Hair\"],\r\n  \"stock\": 70,\r\n  \"link\" :\"https://www.amazon.in/Dabur-Vatika-Health-Shampoo-640/dp/B07QD5VR1L/ref=sr_1_2_sspa?keywords=shampoo&qid=1653415437&sprefix=shamp%2Caps%2C415&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE1TkEzVUk5OE5SSUImZW5jcnlwdGVkSWQ9QTAyOTU3NTFMUENKVzRBUjc2UTcmZW5jcnlwdGVkQWRJZD1BMDE2OTM2MTFPSVRNM0FQQ09FMDMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Beard Shampoo\",\r\n  \"description\": \"If your goal is a soft, healthy, manageable beard, then adding beard care products to your grooming routine is critical. There are a lot of things about your beard that are out of your control”the way you care for it isnt one of them. Our line of beard products offers everything you need to keep your beard looking and feeling awesome”and when your beard looks awesome, it gives you the confidence to keep on growing. Professional Salon Treatment At Home: Professional salon treatment that instantly transforms the texture of your beard leaving it soft, silky, and easier to manage. Deeply conditions, detangles, hydrates, and revives dull and dry hair improving its manageability and elasticity and giving it a beautiful shine\",  \"price\": 399,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/61OKpa9qEdS._SY355_.jpg\", \"https://m.media-amazon.com/images/I/71j6YDX8H+L._SY355_.jpg\"],\r\n  \"category\": [\"Male\", 20, 40, \"Hair\"],\r\n  \"stock\": 10,\r\n  \"link\" :\"https://www.amazon.in/Mancode-Beard-Conditioner-Healthy-Nourishes/dp/B08JL7CM97/ref=sr_1_1_sspa?keywords=beard+shampoo&qid=1653415606&sprefix=beard+sha%2Caps%2C311&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNUhKR0QxTk5aR1BaJmVuY3J5cHRlZElkPUEwNDQ4MTQ2M1NOTVZKSjk0RlI4SyZlbmNyeXB0ZWRBZElkPUEwOTk0MTU4Qk0xSkhBRkZKWjJRJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Beardo\",\r\n  \"description\": \"Helps promote hair & beard growth, Makes beard smooth and Frizz free. Natural ingredients like Hibiscus Oil, Coconut Oil and Amla amongst others to ensure all round care for your precious mane Helps get rid of patchy beard. Grow Thicker Healthier Beard : - The combined power of Amla, Hibiscus, Coconut Oil and Sesame that are rich in antioxidants and Vitamin E helps you to accelerate hair growth.\",  \"price\": 477,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/71McT5bHPwL._SY606_.jpg\", \"https://m.media-amazon.com/images/I/61gXJl7JQCL._SX450_.jpg\"],\r\n  \"category\": [\"Male\", 20, 40, \"Beard\"],\r\n  \"stock\": 25,\r\n  \"link\" :\"https://www.amazon.in/Beardo-Beard-Hair-Growth-Oil/dp/B01C8FM764/ref=sr_1_4_sspa?keywords=beard%2Bgrowth%2Boil&qid=1653415777&sprefix=beard%2Caps%2C757&sr=8-4-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVSE83T1o5R1dUS0kmZW5jcnlwdGVkSWQ9QTAzNDE0ODEzUU03TTYxS0hQNFkyJmVuY3J5cHRlZEFkSWQ9QTAwNDY4NTYxQ1ZPMFgzUkRHNVdPJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Hair Oil\",\r\n  \"description\": \"Quantity: 120ml; Item Form: Oil  Natural ingredients, 100 percent botanical extracts  Alcohol free, not tested on animals, natural ingredients, paraben free; How to use: Apply liberally to dry hair and scalp. Massage in gently with circular motions. Leave on for half an hour. Rinse well with water.\",\r\n  \"price\": 95,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/411OxKjLnPL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/51HxqfG1OfL._SY355_.jpg\"],\r\n  \"category\": [\"Men\", 10, 59, \"Hair\",\"Oil\"],\r\n  \"stock\": 100,\r\n  \"link\" :\"https://www.amazon.in/Biotique-Bhringraj-Growth-Therapeutic-Falling/dp/B004C1VIPY/ref=sr_1_8?crid=187DHSYOPY174&keywords=hair+oil+men&qid=1653416232&sprefix=hair+oil+men%2Caps%2C238&sr=8-8\"\r\n  },\r\n  \r\n  \r\n  {\r\n  \"name\": \"Jasmine oil\",\r\n  \"description\": \"A light and non-sticky hair oil enriched with coconut & 8x vitamin E that nourishes your hair from within thereby leaving your super shiny. This Vitamin E loaded hair oil helps reduce the damage to hair, repair it, strengthen it thereby restoring the natural lustre. It improves scalp health and promotes hair growth\",  \"price\": 206,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/61tp6+HeNvL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/61LBT5vWfUL._SY355_.jpg\"],\r\n  \"category\": [\"Women\", 20,45,  \"Hair\",\"Oil\"],\r\n  \"stock\": 90,\r\n  \"link\" :\"https://www.amazon.in/Parachute-Advansed-Jasmine-Non-Sticky-Coconut/dp/B09QKNHJNC/ref=sr_1_4_sspa?crid=1ZFV7CAJPJVSP&keywords=hair+oil+women&qid=1653416453&sprefix=hair+oil+women%2Caps%2C315&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSEo4UFNDRVRQM1YxJmVuY3J5cHRlZElkPUEwOTkwMDg3NEFUT0ZHVFJPOEw4JmVuY3J5cHRlZEFkSWQ9QTA3MTgxMTE5NlFVUjdaTFBIRTEmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Garnier Face Wash\",\r\n  \"description\": \"Fight the 6 signs of acne and deep clean your skin with Garnier Men Acno Fight Face Wash. Powered by Salicylic Acid and Herba Repair, the Acno Fight Facewash fights 99.9% of pimple causing germs and clears blackheads and acne from your face. The gel based anti-pimple face wash unclogs pores and also has anti-inflammatory properties to soothe red, irritated skin.\",  \"price\": 241,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/51W4Rv1YbTL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/615gswKMDHS._SY355_.jpg\"],\r\n  \"category\": [\"Male\", 25, 45, \"Face-Wash\"],\r\n  \"stock\": 45,\r\n  \"link\" :\"https://www.amazon.in/Garnier-Fight-Anti-Pimple-Facewash-Prone/dp/B08PQLV9TY/ref=sr_1_4_sspa?crid=2P8WQ555YSPS6&keywords=men+face+wash&qid=1653416577&sprefix=men+face+was%2Caps%2C395&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTUc5SDMySUNaTUtIJmVuY3J5cHRlZElkPUEwODA3MjI0MUJETUg5SFFEUUUyQSZlbmNyeXB0ZWRBZElkPUEwMjczNjIyM0U5OERSNVdNWlNEVCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Nivea Cream\",\r\n  \"description\": \"Licorice Extracts Prevents Dryness and Hyderates the skin Non Greasy Formula Absorbs Quickly Suitable for All Skin Types Specially Designed for Men  Skin compatibility dermatologically approved\",\r\n  \"price\": 190,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/51NYSJRXJ6L._SY355_.jpg\", \"https://m.media-amazon.com/images/I/61Kt1kCBF9L._SY355_.jpg\"],\r\n  \"category\": [\"Male\", 25, 40, \"Face-cream\"],\r\n  \"stock\": 50,\r\n  \"link\" :\"https://www.amazon.in/Nivea-Dark-Spot-Reduction-Cream/dp/B0183C3F2Q/ref=sr_1_5?keywords=face%2Bcream%2Bfor%2Bmen&qid=1653416747&sprefix=Face%2Bcream%2B%2Caps%2C621&sr=8-5&th=1\"\r\n  },\r\n  \r\n  \r\n  {\r\n  \"name\": \"Men Goggles\",\r\n  \"description\": \"Care Instructions: It is important to clean and maintain them regularly. Just spray some Aqualens solution on your lenses and wipe them with a microfibre cloth to keep your lenses smudge-free. ABOUT THE BRAND:- The Vincent Chase collection features some of the most stylish and trendy sunglasses for men and women. Available in a variety of colours and shapes, it ensures you always stand out with your unique style.\",  \"price\": 1179,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/41F-usiN+rL._UX679_.jpg\", \"https://m.media-amazon.com/images/I/31UNljJNrDL.jpg\" ,\"https://m.media-amazon.com/images/I/81bEhbVF0+L._UX522_.jpg\"],\r\n  \"category\": [\"Male\", 25, 60, \"Eyes\" , \"Glasses\"],\r\n  \"stock\": 5,\r\n  \"link\" :\"https://www.amazon.in/Sunglasses-Polarized-Protected-VC-5158/dp/B08VGNNG5V/ref=sr_1_2_sspa?crid=2VQNRAYPNQ6N9&keywords=glasses%2Bfor%2Bmen&qid=1653416989&sprefix=glasses%2Bfor%2Bme%2Caps%2C336&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMFMwMFAwNVRCVU9MJmVuY3J5cHRlZElkPUEwMjEzNDA3MjUxMldMQTFVUE5ZTCZlbmNyeXB0ZWRBZElkPUEwMTgxMTUxWU5QWUk3UDc5TjlHJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Women Goggles\",\r\n  \"description\": \"Protect your eyes from harmful blue light when you watch TV, look at computer, tablet, smartphone or other electronic devices Blue light-resistant and UV400 lenses prevent harmful light from damaging your eyes and block UV rays. Anti-fatigue radiation eye protection glasses, to protect you from headaches, fatigue, brain embolism, always protect your health\",  \"price\": 409,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/713tJcdHerL._UX522_.jpg\", \"https://m.media-amazon.com/images/I/613SMWSGNAL._UX522_.jpg\"],\r\n  \"category\": [\"Women\", 22, 45, \"Eyes\",\"Glasses\"],\r\n  \"stock\": 10,\r\n  \"link\" :\"https://www.amazon.in/Peter-Jones-Computer-Blocking-AG5196PK/dp/B09D423W9Q/ref=sr_1_5?crid=39BBUMC2VM6E3&keywords=women%2Bglasses&qid=1653417184&sprefix=women%2Bglass%2Caps%2C346&sr=8-5&th=1\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Moustache Growth Oil\",\r\n  \"description\": \"Enriched with Basil and Almond Oils as actThis Mooch Growth Oil is made with only the finest natural blends of oils including Sunflower, Argan, Jojoba, Apricot with Vitamin E.ive ingredients, this roll on not only stimulates the follicles and promotes hair growth but also conditions and adds shine. Almond promotes growth and shine. Jojoba strengthens and conditions hair. This moustache oil also helps moisturise the skin under your moustache and minimize ‘tach dandruff’.\",  \"price\": 185,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/51gfNRUXIFL._SY450_.jpg\", \"https://m.media-amazon.com/images/I/61+fBKAtolL._SY450_.jpg\"],\r\n  \"category\": [\"Male\", 20, 40, \"Hair\",\"Moustache\"],\r\n  \"stock\": 16,\r\n  \"link\" :\"https://www.amazon.in/Man-Company-Moustache-Growth-Roll/dp/B07RQM535V/ref=sr_1_7?crid=RF07R6B8ZVSJ&keywords=moustache&qid=1653417415&sprefix=moustach%2Caps%2C1039&sr=8-7\"\r\n  },\r\n  \r\n  {\r\n  \"name\": \"Makeup Kit\",\r\n  \"description\": \"High-density synthetic hair, always give you silky soft feeling. Outstanding performance on blending,contouring and cutting crease. Deeply pigmented; Item Form: Stick Glides on smooth. Stay-put wear.  Unique product which is perfect for defining your eyes in a lightning speed without any application difficulty\",  \r\n  \"price\": 749,\r\n  \"images\": [\"https://m.media-amazon.com/images/I/71U1uOm16QL._SY355_.jpg\", \"https://m.media-amazon.com/images/I/61ECQPWyPLL._SY450_.jpg\"],\r\n  \"category\": [\"Female\", 22, 46, \"Makeup\",\"Face\"],\r\n  \"stock\": 20,\r\n  \"link\" :\"https://www.amazon.in/Rupali-Contour-Waterproof-Eyeliner-Eyelashes/dp/B08VDX2WL2/ref=sr_1_1_sspa?crid=LIYEEX20JO1T&keywords=makeup+kit&qid=1653417577&sprefix=makeup+ki%2Caps%2C376&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUlFQOTdRTzBRU0syJmVuY3J5cHRlZElkPUEwMzE0MTE2MlpHQ1I3V0pYMlQxOCZlbmNyeXB0ZWRBZElkPUEwMDE5NDc4M0VINElUT0pNQzUzNSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=\"\r\n  }\r\n  \r\n  \r\n]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/admin/products/new",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"admin",
+								"products",
+								"new"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Product",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Reading Glasses\",\r\n    \"description\": \"glasses with uv protection\",\r\n    \"price\": \"2000\",    \r\n    \"category\": \"Glasses\",\r\n    \"stock\": 200,\r\n    \"images\": [\r\n    {\"image\": \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\"},\r\n    {\"image\": \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\"}\r\n]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/admin/product/new",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"admin",
+										"product",
+										"new"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "573"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"23d-yWcwpV3AlMy4/NP3kCckJOUHMvo\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 09:25:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"product\": {\n        \"name\": \"Reading Glasses\",\n        \"description\": \"glasses with uv protection\",\n        \"price\": 2000,\n        \"ratings\": 0,\n        \"images\": [\n            {\n                \"image\": \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963a\"\n            },\n            {\n                \"image\": \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963b\"\n            }\n        ],\n        \"category\": \"Glasses\",\n        \"stock\": 200,\n        \"numOfReviews\": 0,\n        \"user\": \"628b26a3e4bc9284915c733f\",\n        \"_id\": \"628b53087ae7d8cf0b3a9639\",\n        \"reviews\": [],\n        \"createdAt\": \"2022-05-23T09:25:28.393Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/products",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Product",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/products",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"products"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2538"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"9ea-Dw8YbVoZ4U5G6WQiuYCzw7V4vtg\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 08:58:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"products\": [\n        {\n            \"_id\": \"628942a62207937eb00a3ff9\",\n            \"ratings\": 0,\n            \"Stock\": 100,\n            \"numOfReviews\": 1,\n            \"name\": \"Leaves\",\n            \"price\": 10,\n            \"description\": \"Very beautiful rare leaves\",\n            \"category\": \"Camera\",\n            \"images\": [\n                {\n                    \"_id\": \"628942a62207937eb00a3ffa\",\n                    \"public_id\": \"products/gcjjvkrhrrq75fjmdf4t\",\n                    \"url\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653162661/products/gcjjvkrhrrq75fjmdf4t.jpg\"\n                }\n            ],\n            \"user\": \"628940fa2207937eb00a3f9b\",\n            \"reviews\": [\n                {\n                    \"user\": \"628940fa2207937eb00a3f9b\",\n                    \"name\": \"Sumrender Singh\",\n                    \"rating\": 0,\n                    \"comment\": \"bohot bdiya ptte the. mza hi aa gya\",\n                    \"_id\": \"628a1d4908eca500446bee6b\"\n                }\n            ],\n            \"createdAt\": \"2022-05-21T19:51:02.005Z\",\n            \"__v\": 1,\n            \"stock\": 1\n        },\n        {\n            \"stock\": 1,\n            \"_id\": \"6289d76ad9bd690b3875d3ce\",\n            \"ratings\": 0,\n            \"Stock\": 5,\n            \"numOfReviews\": 0,\n            \"name\": \"Mens Casual Premium Slim Fit T-Shirts\",\n            \"price\": 10000,\n            \"description\": \"Slim-fitting style, contrast raglan long sleeve, three-button \",\n            \"category\": \"Tops\",\n            \"images\": [\n                {\n                    \"_id\": \"6289d76ad9bd690b3875d3cf\",\n                    \"public_id\": \"products/kptpibrrtdy1uzz1wahe\",\n                    \"url\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653200745/products/kptpibrrtdy1uzz1wahe.jpg\"\n                }\n            ],\n            \"user\": \"628940fa2207937eb00a3f9b\",\n            \"reviews\": [],\n            \"createdAt\": \"2022-05-22T06:25:46.815Z\",\n            \"__v\": 0\n        },\n        {\n            \"stock\": 1,\n            \"_id\": \"6289d7bad9bd690b3875d3db\",\n            \"ratings\": 0,\n            \"Stock\": 4,\n            \"numOfReviews\": 0,\n            \"name\": \"tshirt\",\n            \"price\": 50,\n            \"description\": \"aawesome shirt\",\n            \"category\": \"Tops\",\n            \"images\": [\n                {\n                    \"_id\": \"6289d7bad9bd690b3875d3dc\",\n                    \"public_id\": \"products/t1be8c9dydf3ylqhiypw\",\n                    \"url\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653200825/products/t1be8c9dydf3ylqhiypw.jpg\"\n                }\n            ],\n            \"user\": \"628940fa2207937eb00a3f9b\",\n            \"reviews\": [],\n            \"createdAt\": \"2022-05-22T06:27:06.016Z\",\n            \"__v\": 0\n        },\n        {\n            \"stock\": 1,\n            \"_id\": \"6289d7d6d9bd690b3875d3e8\",\n            \"ratings\": 0,\n            \"Stock\": 4,\n            \"numOfReviews\": 0,\n            \"name\": \"thsiafjkjg;\",\n            \"price\": 3000,\n            \"description\": \"ahgjhafgnalk;jgkajf\",\n            \"category\": \"Tops\",\n            \"images\": [\n                {\n                    \"_id\": \"6289d7d6d9bd690b3875d3e9\",\n                    \"public_id\": \"products/wx6hnrgbqlqav4l9k7os\",\n                    \"url\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653200854/products/wx6hnrgbqlqav4l9k7os.jpg\"\n                }\n            ],\n            \"user\": \"628940fa2207937eb00a3f9b\",\n            \"reviews\": [],\n            \"createdAt\": \"2022-05-22T06:27:34.792Z\",\n            \"__v\": 0\n        },\n        {\n            \"stock\": 1,\n            \"_id\": \"6289db6cd9bd690b3875d3f8\",\n            \"ratings\": 0,\n            \"Stock\": 4,\n            \"numOfReviews\": 0,\n            \"name\": \"T-shirt\",\n            \"price\": 5858,\n            \"description\": \"kashfagjlkajglkf;g\",\n            \"category\": \"Tops\",\n            \"images\": [\n                {\n                    \"_id\": \"6289db6cd9bd690b3875d3f9\",\n                    \"public_id\": \"products/nqiamctx3gx49z4m2cn6\",\n                    \"url\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653201771/products/nqiamctx3gx49z4m2cn6.jpg\"\n                }\n            ],\n            \"user\": \"628940fa2207937eb00a3f9b\",\n            \"reviews\": [],\n            \"createdAt\": \"2022-05-22T06:42:52.284Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Create Review",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": \"628b53087ae7d8cf0b3a9639\",\r\n    \"rating\": 4,\r\n    \"comment\": \"Great lenses with a durable frame\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/review",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"review"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Review",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\": \"628b53087ae7d8cf0b3a9639\",\r\n    \"rating\": 4,\r\n    \"comment\": \"Great lenses with a durable frame\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/review",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"review"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "101"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"65-A+yDneUrTC21cVLHL9+Scm3TIKA\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 09:39:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"product\": \"Reading Glasses\",\n    \"rating\": 4,\n    \"comment\": \"Great lenses with a durable frame\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Product",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/product/628b53087ae7d8cf0b3a9639",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"product",
+								"628b53087ae7d8cf0b3a9639"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Product",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/product/628b53087ae7d8cf0b3a9639",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"product",
+										"628b53087ae7d8cf0b3a9639"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "573"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"23d-z0AgVcthPSC5nkkWRQM8LGwzUnA\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 09:30:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"product\": {\n        \"_id\": \"628b53087ae7d8cf0b3a9639\",\n        \"name\": \"Reading Glasses\",\n        \"description\": \"glasses with uv protection\",\n        \"price\": 2000,\n        \"ratings\": 0,\n        \"images\": [\n            {\n                \"image\": \"https://image.shutterstock.com/image-vector/golden-glasses-isolated-on-transparent-260nw-1491195458.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963a\"\n            },\n            {\n                \"image\": \"https://upload.wikimedia.org/wikipedia/commons/a/af/Glasses_black.jpg\",\n                \"_id\": \"628b53087ae7d8cf0b3a963b\"\n            }\n        ],\n        \"category\": \"Glasses\",\n        \"stock\": 200,\n        \"numOfReviews\": 0,\n        \"user\": \"628b26a3e4bc9284915c733f\",\n        \"reviews\": [],\n        \"createdAt\": \"2022-05-23T09:25:28.393Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "User",
+					"item": []
+				},
+				{
+					"name": "Product",
+					"item": []
+				},
+				{
+					"name": "Order",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Me",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/me",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Me",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/me",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "352"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"160-0cw2Oj2idl2vTsEodjBRL9FNApo\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 08:52:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"user\": {\n        \"_id\": \"628b26a3e4bc9284915c733f\",\n        \"name\": \"test\",\n        \"email\": \"test@gmail.com\",\n        \"image\": \"https://res.cloudinary.com/dkie4szsu/image/upload/v1653285743/wvbvqbd7mvvhh2yhq4v2.png\",\n        \"role\": \"user\",\n        \"createdAt\": \"2022-05-23T06:16:03.847Z\",\n        \"__v\": 0,\n        \"resetPasswordExpire\": \"2022-05-23T08:51:38.954Z\",\n        \"resetPasswordToken\": \"628b26a3e4bc9284915c733f\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "User Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"person\",\r\n    \"email\": \"admin@admin.com\",\r\n    \"image\": \"https://images.unsplash.com/photo-1527189919029-aeb3d997547d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/me/update",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"me",
+								"update"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "User Update",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"real person\",\r\n    \"email\": \"test@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/me/update",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"me",
+										"update"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "16"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 08:56:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "New Order Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"shippingInfo\":{\r\n\t    \"address\":\"my address\",\r\n\t    \"city\":\"meerut\",\r\n\t    \"state\":\"Uttar Pradesh\",\r\n\t    \"country\": \"India\",\r\n\t    \"pinCode\": 250001,\r\n\t    \"phoneNo\": 93525298834\r\n    },\r\n\t\"orderItems\":[\r\n        {\t\r\n            \"name\": \"Reading Glasses\",\r\n            \"price\":2560,\r\n            \"quantity\": 30,\r\n            \"image\": \"random_url\",\r\n            \"product\":\"628b53087ae7d8cf0b3a9639\"\r\n        }\r\n    ],\r\n    \"paymentInfo\": {\"id\":\"5747rhhfgy47hf\",\"status\":\"paid\"},\r\n    \"itemsPrice\":4000,\r\n    \"taxPrice\":700,\r\n    \"shippingPrice\":200,\r\n    \"totalPrice\":4900\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/order/new",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"order",
+								"new"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Order Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"shippingInfo\":{\r\n\t    \"address\":\"my address\",\r\n\t    \"city\":\"meerut\",\r\n\t    \"state\":\"Uttar Pradesh\",\r\n\t    \"country\": \"India\",\r\n\t    \"pinCode\": 250001,\r\n\t    \"phoneNo\": 93525298834\r\n    },\r\n\t\"orderItems\":[\r\n        {\t\r\n            \"name\": \"Reading Glasses\",\r\n            \"price\":2000,\r\n            \"quantity\": 30,\r\n            \"image\": \"random_url\",\r\n            \"product\":\"628b53087ae7d8cf0b3a9639\"\r\n        }\r\n    ],\r\n    \"paymentInfo\": {\"id\":\"5747rhhfgy47hf\",\"status\":\"paid\"},\r\n    \"itemsPrice\":4000,\r\n    \"taxPrice\":700,\r\n    \"shippingPrice\":200,\r\n    \"totalPrice\":4900\r\n\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/order/new",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"order",
+										"new"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "625"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"271-LsFXkAMslea9nE5Fj8JurGoyhPU\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 10:26:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"order\": {\n        \"shippingInfo\": {\n            \"address\": \"my address\",\n            \"city\": \"meerut\",\n            \"state\": \"Uttar Pradesh\",\n            \"country\": \"India\",\n            \"pinCode\": 250001,\n            \"phoneNo\": 93525298834\n        },\n        \"orderItems\": [\n            {\n                \"name\": \"Reading Glasses\",\n                \"price\": 2000,\n                \"quantity\": 30,\n                \"image\": \"random_url\",\n                \"product\": \"628b53087ae7d8cf0b3a9639\",\n                \"_id\": \"628b61593756334bcebcd445\"\n            }\n        ],\n        \"user\": \"628b311a306ca3e40a919dc4\",\n        \"paymentInfo\": {\n            \"id\": \"5747rhhfgy47hf\",\n            \"status\": \"paid\"\n        },\n        \"paidAt\": \"2022-05-23T10:26:33.319Z\",\n        \"itemsPrice\": 4000,\n        \"taxPrice\": 700,\n        \"shippingPrice\": 200,\n        \"totalPrice\": 4900,\n        \"orderStatus\": \"Processing\",\n        \"_id\": \"628b61593756334bcebcd444\",\n        \"createdAt\": \"2022-05-23T10:26:33.320Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Order",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/order/628b624ab417ec222f966168",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"order",
+								"628b624ab417ec222f966168"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Order",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/order/628b624ab417ec222f966168",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"order",
+										"628b624ab417ec222f966168"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "679"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2a7-kYjCDDAevxyx+Tjk3hXMpEnMoUI\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 10:31:14 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"order\": {\n        \"shippingInfo\": {\n            \"address\": \"my address\",\n            \"city\": \"meerut\",\n            \"state\": \"Uttar Pradesh\",\n            \"country\": \"India\",\n            \"pinCode\": 250001,\n            \"phoneNo\": 93525298834\n        },\n        \"paymentInfo\": {\n            \"id\": \"5747rhhfgy47hf\",\n            \"status\": \"paid\"\n        },\n        \"_id\": \"628b624ab417ec222f966168\",\n        \"orderItems\": [\n            {\n                \"name\": \"Reading Glasses\",\n                \"price\": 2560,\n                \"quantity\": 30,\n                \"image\": \"random_url\",\n                \"product\": \"628b53087ae7d8cf0b3a9639\",\n                \"_id\": \"628b624ab417ec222f966169\"\n            }\n        ],\n        \"user\": {\n            \"_id\": \"628b311a306ca3e40a919dc4\",\n            \"name\": \"sammy\",\n            \"email\": \"sumrenders@gmail.com\"\n        },\n        \"paidAt\": \"2022-05-23T10:30:34.896Z\",\n        \"itemsPrice\": 4000,\n        \"taxPrice\": 700,\n        \"shippingPrice\": 200,\n        \"totalPrice\": 4900,\n        \"orderStatus\": \"Processing\",\n        \"createdAt\": \"2022-05-23T10:30:34.913Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "My Orders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/orders/me",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"orders",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "My Orders",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/orders/me",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"orders",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1229"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4cd-Bcr9fbYOZBwH+eGJlpkfVNSEX0A\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 10:32:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"orders\": [\n        {\n            \"shippingInfo\": {\n                \"address\": \"my address\",\n                \"city\": \"meerut\",\n                \"state\": \"Uttar Pradesh\",\n                \"country\": \"India\",\n                \"pinCode\": 250001,\n                \"phoneNo\": 93525298834\n            },\n            \"paymentInfo\": {\n                \"id\": \"5747rhhfgy47hf\",\n                \"status\": \"paid\"\n            },\n            \"_id\": \"628b61593756334bcebcd444\",\n            \"orderItems\": [\n                {\n                    \"name\": \"Reading Glasses\",\n                    \"price\": 2000,\n                    \"quantity\": 30,\n                    \"image\": \"random_url\",\n                    \"product\": \"628b53087ae7d8cf0b3a9639\",\n                    \"_id\": \"628b61593756334bcebcd445\"\n                }\n            ],\n            \"user\": \"628b311a306ca3e40a919dc4\",\n            \"paidAt\": \"2022-05-23T10:26:33.319Z\",\n            \"itemsPrice\": 4000,\n            \"taxPrice\": 700,\n            \"shippingPrice\": 200,\n            \"totalPrice\": 4900,\n            \"orderStatus\": \"Processing\",\n            \"createdAt\": \"2022-05-23T10:26:33.320Z\",\n            \"__v\": 0\n        },\n        {\n            \"shippingInfo\": {\n                \"address\": \"my address\",\n                \"city\": \"meerut\",\n                \"state\": \"Uttar Pradesh\",\n                \"country\": \"India\",\n                \"pinCode\": 250001,\n                \"phoneNo\": 93525298834\n            },\n            \"paymentInfo\": {\n                \"id\": \"5747rhhfgy47hf\",\n                \"status\": \"paid\"\n            },\n            \"_id\": \"628b624ab417ec222f966168\",\n            \"orderItems\": [\n                {\n                    \"name\": \"Reading Glasses\",\n                    \"price\": 2560,\n                    \"quantity\": 30,\n                    \"image\": \"random_url\",\n                    \"product\": \"628b53087ae7d8cf0b3a9639\",\n                    \"_id\": \"628b624ab417ec222f966169\"\n                }\n            ],\n            \"user\": \"628b311a306ca3e40a919dc4\",\n            \"paidAt\": \"2022-05-23T10:30:34.896Z\",\n            \"itemsPrice\": 4000,\n            \"taxPrice\": 700,\n            \"shippingPrice\": 200,\n            \"totalPrice\": 4900,\n            \"orderStatus\": \"Processing\",\n            \"createdAt\": \"2022-05-23T10:30:34.913Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"item": [
+				{
+					"name": "Get Stripe API key",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/stripeapikey",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"stripeapikey"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Stripe API key",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stripeapikey",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stripeapikey"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "126"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"7e-OjrfW9MX9glTRf1dV37GR9JWkaA\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 May 2022 10:17:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"stripeApiKey\": \"pk_test_51L1RRmSDWT9F47v5etSX7EXq93LDX3zUtP2gjRt9isGjf16afjp52A0N72EsaO7Tr1QB5BD3b7VXqsQo8ignLdeX00zz2iXhmI\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Payment Process",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "pk_test_51L1RRmSDWT9F47v5etSX7EXq93LDX3zUtP2gjRt9isGjf16afjp52A0N72EsaO7Tr1QB5BD3b7VXqsQo8ignLdeX00zz2iXhmI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\": 100\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/payment/process",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"payment",
+								"process"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/test",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "test",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"test"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"32-E+uNJi7T9kb3iN1XDC3F7HPzw+A\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 21 May 2022 04:59:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"message\": \"test request received\"\n}"
+				}
+			]
+		}
+	]
+}

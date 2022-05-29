@@ -1,0 +1,78 @@
+.recommendations {
+  /* width: 50%;*/
+  margin: 0 auto;
+  width: 80%;
+}
+
+.fileInput {
+  text-align: center;
+}
+
+.fileInput h2 {
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.recommendation-section {
+  margin: 1rem 0;
+}
+
+.section-header {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+}
+
+.fileInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.upload-image-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-image-div input {
+  margin: 0 auto;
+}
+
+/* .showFaceData {
+  padding: 2rem;
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.4);
+  width: 30rem;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+ */
+.top-container {
+  display: grid;
+  margin: 6rem 2rem 4rem 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.showFaceData {
+  padding: 1rem 5rem 1rem 5rem;
+  height: 100%;
+}
+
+.faceDataAttribute {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.handleImages {
+  height: 100%;
+}
+
+.imgDisplay {
+  height: 100%;
+}

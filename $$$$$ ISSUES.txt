@@ -1,0 +1,32 @@
+
+0. resolve all comments
+1. face Recognition and filters
+2. user registration kai image upload func mai change.
+
+3. create product ke frontend mai change hoga
+4. navbar 
+5. myOrders component?
+6. hr ek page pr alert ko remove kiya hai to errors ka dekhnaa pdega: basically products aur users ke
+7. profile/update pr image to update nhi hui
+8. update titles using react-helmet, similar to <MetaData />
+
+
+------ 26 taarik ka kaam-----
+1. 'path' package for production
+2.  resetpassword token frontend, reset password token mai email required now
+3. payment process ka pta nhi
+4. first hosting
+--------------------------------------------------------
+
+Additional features on 27
+
+a. game Route, find similar celebrity
+b. dashboard component pura.
+c. admin routes postman pr 
+d. dark mode 
+e. translation 
+
+-----28 ka kaam------
+video + hosting + github code
+
+---- 29 ko kuch nhi----

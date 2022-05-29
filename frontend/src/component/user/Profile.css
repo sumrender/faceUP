@@ -1,0 +1,57 @@
+.profile-page {
+  margin : 4rem 0;
+}
+
+.profile-card {
+  display: grid;
+  margin : 0 auto;
+  box-shadow: 0px 15px 22px -16px rgba(0,0,0,0.51);
+  grid-template-rows: .5fr .5fr;
+  row-gap: 1rem;
+  width: 40rem;
+  height: 40rem;
+  padding: 1rem;
+}
+
+.profile-image-div {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.profile-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-details-header {
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.button {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  border : 1px solid black;
+  color: white;
+  font-size: 1rem;
+}
+
+.button-primary {
+  background-color: #1c7ed6;
+}
+
+.button-success {
+  background-color: #37b24d;
+}
+
+.button-danger {
+  background-color: #f03e3e;
+}

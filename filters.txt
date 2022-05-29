@@ -1,0 +1,20 @@
+PARAMETERS:
+
+1. GENDER
+2. AGE
+3. FACIAL HAIR: moustache, beard
+4. GLASSES
+5. HAIR: bald, haircolor
+6. MAKEUP: eyeMakeup, lipMakeup=> true/false
+
+Male:		glasses, hair products(oil, dye, gel), beard products, 
+Female:	same as above; eye/lip makeup
+
+{
+name: "product name",
+description: "product desc",
+price: 100,
+image: ["url1", "url2"],
+category: "category_name",
+stock: 3,
+}

@@ -1,0 +1,30 @@
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    padding : 0.5rem 2.5rem;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.navbar-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .15rem;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 1.15rem;
+}
+
+
+body {
+    margin-top: 4.1rem;
+}

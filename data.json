@@ -1,0 +1,205 @@
+[
+  
+  {
+    "name": "Maybelline Lipstick",
+    "description": "The Maybelline Color Sensational Creamy Mattes Lipstick has a unique, velvety matte cream formula that offers a non-drying & un-crackable finish that stays comfortably on your lips through the day. These hydrating Maybelline lipstick shades are are infused with honey nectar to keep your lips moisturized all day long. The Colour Sensation lipsticks glide on your lips smoothly for a comfortable wear...",
+    "price": 199,
+    "images": ["https://m.media-amazon.com/images/I/51RwlW7m+6L._SY355_.jpg", "https://m.media-amazon.com/images/I/61IH97u0jqL._SX355_.jpg"],
+    "category": "Female young old Makeup Lips",
+    "stock": 50,
+    "link" : "https://www.amazon.in/Maybelline-York-Lipstick-Touch-Spice/dp/B00N6YEI6O/ref=sr_1_5?adgrpid=61481397000&ext_vrnc=hi&gclid=EAIaIQobChMI1Ln129j49wIVZJhmAh0ZTwSQEAAYAiAAEgIUsvD_BwE&hvadid=294111526680&hvdev=c&hvlocphy=9062113&hvnetw=g&hvqmt=e&hvrand=1602218686621912316&hvtargid=kwd-296133905002&hydadcr=14982_1821401&keywords=lipstick%27&qid=1653414737&sr=8-5&th=1"
+    },
+    
+    {
+    "name": "Nykaa Lip Balm",
+    "description": "BEETROOT LIP AND CHEEK TINT: Nourish your lips and cheeks with our all-natural cheek and lip moisturizer! Our lip balm melts and blends effortlessly onto the skin for a natural flush. Its creamy formula is packed with natural ingredients for lightening and moisturizing the lips and cheeks. Our smooth cheek tint gives your cheeks and lips the perfect pop of rosy pink",
+    "price": 499,
+    "images": ["https://m.media-amazon.com/images/I/61um+vJjadL._SY355_.jpg", "https://m.media-amazon.com/images/I/616l7KUDJoL._SY355_.jpg"],
+    "category": "Female young old Makeup Lips",
+    "stock": 30,
+    "link" :"https://www.amazon.in/dp/B08MXFG97R/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=18ffb749aef59be50391d15b7744fbc1&hsa_cr_id=6045912660602&pd_rd_plhdr=t&pd_rd_r=65ef3742-c8f5-4f1b-a1cd-2454f6cc6a87&pd_rd_w=aLy9x&pd_rd_wg=2hX3x&ref_=sbx_be_s_sparkle_mcd_asin_0_img"
+    },
+    
+    {
+    "name": "Lakme Face Cream",
+    "description": "Repairs the skin Moisturizes skin Gives radiant glowing skin  Lightens the skin tone Evens skin tone Maximum Shelf Life 36 Months",
+    "price": 380,
+    "images": ["https://m.media-amazon.com/images/I/51sm4DTpGWL._SX425_.jpg", "https://m.media-amazon.com/images/I/616IaVgqJEL._SX425_.jpg"],
+    "category": "Female young old Makeup Face",
+    "stock": 35,
+    "link" :"https://www.amazon.in/Lakme-Absolute-Perfect-Radiance-Lightening/dp/B01C42I1QG/ref=sr_1_4_sspa?keywords=face+cream+for+women&qid=1653415093&sprefix=face+crea%2Caps%2C437&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOEkyUENKMFYyM1FZJmVuY3J5cHRlZElkPUEwMjY3Njg5MjlUMVBXUlM0VDVNQyZlbmNyeXB0ZWRBZElkPUEwMTI5NzA4MTdFUVFZM0U4VzY5QSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+   },
+    
+    {
+    "name": "Macadamia Face Lotion",
+    "description": "RICH INDULGENT MOISTURISATION - Natural oils in this lotion gives extra care and nourishment to dry skin even during winters DELICIOUS FRAGRANCE- This fragrance leaves a buttery, sweet vanilla scent on skin    OIL NOURISH- Nourishing oils from Macadamia Nut can deeply moisturise skin and keep it soft for long. An ideal ingredient for skin prone to extra dryness",
+    "price": 249,
+    "images": ["https://m.media-amazon.com/images/I/61+niuKi0hL._SY355_.jpg", "https://m.media-amazon.com/images/I/61Rw2rlanVL._SY355_.jpg"],
+    "category": "Female young old Makeup Lotion",
+    "stock": 60,
+    "link" :"https://www.amazon.in/Buds-Berries-Macadamia-Vanilla-Moisturisation/dp/B09DYK7WRW/ref=sr_1_1_sspa?crid=M84CUDXXSB74&keywords=lotion%2Bfor%2Bwomen&qid=1653415239&sprefix=lotion%2Bfor%2Bwome%2Caps%2C384&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFCSzExR1NEOFNVOSZlbmNyeXB0ZWRJZD1BMDY5MjQ5NDIyNkNGMzZCT1FZVDYmZW5jcnlwdGVkQWRJZD1BMDYzMTkzNjE5OVRRMTUzRzk0TjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
+   },
+    
+    
+    {
+    "name": "Dabur Shampoo",
+    "description": "Goodness of 7 Natural Ingredients: Henna, Amla, Shikakai, Almond, Hibiscus, Reetha, Olive Gentle cleansing & conditioning to give you smooth, shiny, and nourished hair Power of Henna & Amla to give you problem free hair",
+    "price": 228,
+    "images": ["https://m.media-amazon.com/images/I/71eAuQlZxPL._SY355_.jpg", "https://m.media-amazon.com/images/I/81ktjBwfjqL._SY355_.jpg"],
+    "category": "Female old young Hair Shampoo",
+    "stock": 70,
+    "link" :"https://www.amazon.in/Dabur-Vatika-Health-Shampoo-640/dp/B07QD5VR1L/ref=sr_1_2_sspa?keywords=shampoo&qid=1653415437&sprefix=shamp%2Caps%2C415&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE1TkEzVUk5OE5SSUImZW5jcnlwdGVkSWQ9QTAyOTU3NTFMUENKVzRBUjc2UTcmZW5jcnlwdGVkQWRJZD1BMDE2OTM2MTFPSVRNM0FQQ09FMDMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"
+   },
+    
+    {
+    "name": "Mancode Beard Shampoo",
+    "description": "If your goal is a soft, healthy, manageable beard, then adding beard care products to your grooming routine is critical. There are a lot of things about your beard that are out of your control”the way you care for it isnt one of them. Our line of beard products offers everything you need to keep your beard looking and feeling awesome”and when your beard looks awesome, it gives you the confidence to keep on growing. Professional Salon Treatment At Home: Professional salon treatment that instantly transforms the texture of your beard leaving it soft, silky, and easier to manage. Deeply conditions, detangles, hydrates, and revives dull and dry hair improving its manageability and elasticity and giving it a beautiful shine",
+    "price": 399,
+    "images": ["https://m.media-amazon.com/images/I/61OKpa9qEdS._SY355_.jpg", "https://m.media-amazon.com/images/I/71j6YDX8H+L._SY355_.jpg"],
+    "category": "men young old beard",
+    "stock": 10,
+    "link" :"https://www.amazon.in/Mancode-Beard-Conditioner-Healthy-Nourishes/dp/B08JL7CM97/ref=sr_1_1_sspa?keywords=beard+shampoo&qid=1653415606&sprefix=beard+sha%2Caps%2C311&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNUhKR0QxTk5aR1BaJmVuY3J5cHRlZElkPUEwNDQ4MTQ2M1NOTVZKSjk0RlI4SyZlbmNyeXB0ZWRBZElkPUEwOTk0MTU4Qk0xSkhBRkZKWjJRJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+   },
+    
+    {
+    "name": "Beardo Hair Growth",
+    "description": "Helps promote hair & beard growth, Makes beard smooth and Frizz free. Natural ingredients like Hibiscus Oil, Coconut Oil and Amla amongst others to ensure all round care for your precious mane Helps get rid of patchy beard. Grow Thicker Healthier Beard : - The combined power of Amla, Hibiscus, Coconut Oil and Sesame that are rich in antioxidants and Vitamin E helps you to accelerate hair growth.",
+    "price": 477,
+    "images": ["https://m.media-amazon.com/images/I/71McT5bHPwL._SY606_.jpg", "https://m.media-amazon.com/images/I/61gXJl7JQCL._SX450_.jpg"],
+    "category": "men you old Beard bald",
+    "stock": 25,
+    "link" :"https://www.amazon.in/Beardo-Beard-Hair-Growth-Oil/dp/B01C8FM764/ref=sr_1_4_sspa?keywords=beard%2Bgrowth%2Boil&qid=1653415777&sprefix=beard%2Caps%2C757&sr=8-4-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVSE83T1o5R1dUS0kmZW5jcnlwdGVkSWQ9QTAzNDE0ODEzUU03TTYxS0hQNFkyJmVuY3J5cHRlZEFkSWQ9QTAwNDY4NTYxQ1ZPMFgzUkRHNVdPJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1"
+   },
+    
+    {
+    "name": "Hair Oil",
+    "description": "Quantity: 120ml; Item Form: Oil Natural ingredients, 100 percent botanical extracts Alcohol free, not tested on animals, natural ingredients, paraben free; How to use: Apply liberally to dry hair and scalp. Massage in gently with circular motions. Leave on for half an hour. Rinse well with water.",
+    "price": 95,
+    "images": ["https://m.media-amazon.com/images/I/411OxKjLnPL._SY355_.jpg", "https://m.media-amazon.com/images/I/51HxqfG1OfL._SY355_.jpg"],
+    "category": "men young old Hair Oil",
+    "stock": 100,
+    "link" :"https://www.amazon.in/Biotique-Bhringraj-Growth-Therapeutic-Falling/dp/B004C1VIPY/ref=sr_1_8?crid=187DHSYOPY174&keywords=hair+oil+men&qid=1653416232&sprefix=hair+oil+men%2Caps%2C238&sr=8-8"
+   },
+    
+    
+    {
+    "name": "Jasmine oil",
+    "description": "A light and non-sticky hair oil enriched with coconut & 8x vitamin E that nourishes your hair from within thereby leaving your super shiny. This Vitamin E loaded hair oil helps reduce the damage to hair, repair it, strengthen it thereby restoring the natural lustre. It improves scalp health and promotes hair growth",    "price": 206,
+    "images": ["https://m.media-amazon.com/images/I/61tp6+HeNvL._SY355_.jpg", "https://m.media-amazon.com/images/I/61LBT5vWfUL._SY355_.jpg"],
+    "category": "Female young old Hair Oil",
+    "stock": 90,
+    "link" :"https://www.amazon.in/Parachute-Advansed-Jasmine-Non-Sticky-Coconut/dp/B09QKNHJNC/ref=sr_1_4_sspa?crid=1ZFV7CAJPJVSP&keywords=hair+oil+women&qid=1653416453&sprefix=hair+oil+women%2Caps%2C315&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSEo4UFNDRVRQM1YxJmVuY3J5cHRlZElkPUEwOTkwMDg3NEFUT0ZHVFJPOEw4JmVuY3J5cHRlZEFkSWQ9QTA3MTgxMTE5NlFVUjdaTFBIRTEmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+   },
+    
+    {
+    "name": "Garnier Face Wash",
+    "description": "Fight the 6 signs of acne and deep clean your skin with Garnier Men Acno Fight Face Wash. Powered by Salicylic Acid and Herba Repair, the Acno Fight Facewash fights 99.9% of pimple causing germs and clears blackheads and acne from your face. The gel based anti-pimple face wash unclogs pores and also has anti-inflammatory properties to soothe red, irritated skin.",
+    "price": 241,
+    "images": ["https://m.media-amazon.com/images/I/51W4Rv1YbTL._SY355_.jpg", "https://m.media-amazon.com/images/I/615gswKMDHS._SY355_.jpg"],
+    "category": "men young old face",
+    "stock": 45,
+    "link" :"https://www.amazon.in/Garnier-Fight-Anti-Pimple-Facewash-Prone/dp/B08PQLV9TY/ref=sr_1_4_sspa?crid=2P8WQ555YSPS6&keywords=men+face+wash&qid=1653416577&sprefix=men+face+was%2Caps%2C395&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTUc5SDMySUNaTUtIJmVuY3J5cHRlZElkPUEwODA3MjI0MUJETUg5SFFEUUUyQSZlbmNyeXB0ZWRBZElkPUEwMjczNjIyM0U5OERSNVdNWlNEVCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+   },
+    
+    {
+    "name": "Nivea Cream",
+    "description": "Licorice Extracts Prevents Dryness and Hyderates the skin Non Greasy Formula Absorbs Quickly Suitable for All Skin Types Specially Designed for Men Skin compatibility dermatologically approved",
+    "price": 190,
+    "images": ["https://m.media-amazon.com/images/I/51NYSJRXJ6L._SY355_.jpg", "https://m.media-amazon.com/images/I/61Kt1kCBF9L._SY355_.jpg"],
+    "category": "men young old face",
+    "stock": 50,
+    "link" :"https://www.amazon.in/Nivea-Dark-Spot-Reduction-Cream/dp/B0183C3F2Q/ref=sr_1_5?keywords=face%2Bcream%2Bfor%2Bmen&qid=1653416747&sprefix=Face%2Bcream%2B%2Caps%2C621&sr=8-5&th=1"
+   },
+    
+    
+    {
+    "name": "Men Goggles",
+    "description": "Care Instructions: It is important to clean and maintain them regularly. Just spray some Aqualens solution on your lenses and wipe them with a microfibre cloth to keep your lenses smudge-free. ABOUT THE BRAND:- The Vincent Chase collection features some of the most stylish and trendy sunglasses for men and women. Available in a variety of colours and shapes, it ensures you always stand out with your unique style.",
+    "price": 1179,
+    "images": ["https://m.media-amazon.com/images/I/41F-usiN+rL._UX679_.jpg", "https://m.media-amazon.com/images/I/31UNljJNrDL.jpg" ,"https://m.media-amazon.com/images/I/81bEhbVF0+L._UX522_.jpg"],
+    "category": "men young old Glasses",
+    "stock": 5,
+    "link" :"https://www.amazon.in/Sunglasses-Polarized-Protected-VC-5158/dp/B08VGNNG5V/ref=sr_1_2_sspa?crid=2VQNRAYPNQ6N9&keywords=glasses%2Bfor%2Bmen&qid=1653416989&sprefix=glasses%2Bfor%2Bme%2Caps%2C336&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMFMwMFAwNVRCVU9MJmVuY3J5cHRlZElkPUEwMjEzNDA3MjUxMldMQTFVUE5ZTCZlbmNyeXB0ZWRBZElkPUEwMTgxMTUxWU5QWUk3UDc5TjlHJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1"
+   },
+    
+    {
+    "name": "Women Goggles",
+    "description": "Protect your eyes from harmful blue light when you watch TV, look at computer, tablet, smartphone or other electronic devices Blue light-resistant and UV400 lenses prevent harmful light from damaging your eyes and block UV rays. Anti-fatigue radiation eye protection glasses, to protect you from headaches, fatigue, brain embolism, always protect your health",
+    "price": 409,
+    "images": ["https://m.media-amazon.com/images/I/713tJcdHerL._UX522_.jpg", "https://m.media-amazon.com/images/I/613SMWSGNAL._UX522_.jpg"],
+    "category": "female old  Eyes Glasses",
+    "stock": 10,
+    "link" :"https://www.amazon.in/Peter-Jones-Computer-Blocking-AG5196PK/dp/B09D423W9Q/ref=sr_1_5?crid=39BBUMC2VM6E3&keywords=women%2Bglasses&qid=1653417184&sprefix=women%2Bglass%2Caps%2C346&sr=8-5&th=1"
+   },
+    
+    {
+    "name": "Moustache Growth Oil",
+    "description": "Enriched with Basil and Almond Oils as actThis Mooch Growth Oil is made with only the finest natural blends of oils including Sunflower, Argan, Jojoba, Apricot with Vitamin E.ive ingredients, this roll on not only stimulates the follicles and promotes hair growth but also conditions and adds shine. Almond promotes growth and shine. Jojoba strengthens and conditions hair. This moustache oil also helps moisturise the skin under your moustache and minimize ‘tach dandruff’.",
+    "price": 185,
+    "images": ["https://m.media-amazon.com/images/I/51gfNRUXIFL._SY450_.jpg", "https://m.media-amazon.com/images/I/61+fBKAtolL._SY450_.jpg"],
+    "category": "men old young hair bald Moustache",
+    "stock": 16,
+    "link" :"https://www.amazon.in/Man-Company-Moustache-Growth-Roll/dp/B07RQM535V/ref=sr_1_7?crid=RF07R6B8ZVSJ&keywords=moustache&qid=1653417415&sprefix=moustach%2Caps%2C1039&sr=8-7"
+   },
+    
+    
+    {
+    "name": "Makeup Kit",
+    "description": "High-density synthetic hair, always give you silky soft feeling. Outstanding performance on blending,contouring and cutting crease. Deeply pigmented; Item Form: Stick Glides on smooth. Stay-put wear. Unique product which is perfect for defining your eyes in a lightning speed without any application difficulty",
+    "price": 749,
+    "images": ["https://m.media-amazon.com/images/I/71U1uOm16QL._SY355_.jpg", "https://m.media-amazon.com/images/I/61ECQPWyPLL._SY450_.jpg"],
+    "category": "Female old young Makeup Face",
+    "stock": 20,
+    "link" :"https://www.amazon.in/Rupali-Contour-Waterproof-Eyeliner-Eyelashes/dp/B08VDX2WL2/ref=sr_1_1_sspa?crid=LIYEEX20JO1T&keywords=makeup+kit&qid=1653417577&sprefix=makeup+ki%2Caps%2C376&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUlFQOTdRTzBRU0syJmVuY3J5cHRlZElkPUEwMzE0MTE2MlpHQ1I3V0pYMlQxOCZlbmNyeXB0ZWRBZElkPUEwMDE5NDc4M0VINElUT0pNQzUzNSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+   },
+   
+   {
+    "name": "Shaving Kit",
+    "description": "A perfect kit to make you play and win every inning of your life Charcoal Face Wash: Effectively removes dirt and grime while maintaining the natural oil balance of the skin  Charcoal Shaving Foam: with 2X creamier formula for smoother shaves. Enriched with activated charcoal and Moroccan argan oil to gently soothe and prepare your skin for a close and comfortable shaving experience & Boss Razor: Gives you a perfect-smooth shave in a jiffy!",
+    "price": 499,
+    "images": ["https://m.media-amazon.com/images/I/81MN2TVL5FL._SX679_.jpg", "https://m.media-amazon.com/images/I/61xsj+zT9wL._SX679_.jpg"],
+    "category": "men old young Beard Shaving",
+    "stock": 100,
+    "link" : "https://www.amazon.in/Bombay-Shaving-Company-Essential-Charcoal/dp/B09WHVR2T5/ref=sr_1_1_sspa?crid=3BEQSUNGYW9NW&keywords=shaving%2Bkit%2Bfor%2Bmen&qid=1653760722&sprefix=shaving%2Caps%2C1659&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUk5GVUhJUUIzMk5UJmVuY3J5cHRlZElkPUEwOTIyMDkyMVI5NUQxUDFHV0JINyZlbmNyeXB0ZWRBZElkPUEwNzUyODkxMVpGUElQQ0EzQzdFTiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1"
+    },    
+    
+    {
+    "name": "Saffron Face Pack",
+    "description": "SKIN LIGHTENING Saffron is anti-bacterial in nature and it has skin enhancing properties. It naturally removes tan from the upper layer of skin and gives you a fairer, spot free look. Free radicals present in turmeric also aid lightened skin tone.    SKIN BRIGHTENING Cucumber gives your skin a bright and rejuvenated look. In combination with papaya extract, these ingredients reverse the effects of sunburn and tanning. It makes you look more radiant with every use.",    "price": 499,
+    "images": ["https://m.media-amazon.com/images/I/51lVrQfquyL._SX679_.jpg", "https://m.media-amazon.com/images/I/71bxQBedGHL._SX425_.jpg"],
+    "category": "Female young old Face Cleanser",
+    "stock": 300,
+    "link" : "https://www.amazon.in/Mamaearth-Fairness-Tanning-Glowing-Turmeric/dp/B07QSQCF9R/ref=sr_1_omk_6?crid=1Y8DQGQKQDXM7&keywords=face+pack&qid=1653761196&sprefix=face+pack%2Caps%2C997&sr=8-6"
+    }
+    ,
+    {
+    "name": "Colossal Mascara",
+    "description": "Colossal Volume: Volume-pumping formula infused with collagen and the Colossal Mega Brush, that instantly achieves 9X Volume without clumping your lashes Colossal Care: Ophthalmologist tested and suitable to wear with contact lenses Colossal Effects: Highly volumizing for dramatic eye makeup look    Colossal Ease: In just one coat Available in waterproof and washable variants. Maximum Shelf Life: 36 Months",
+    "price": 381,
+    "images": ["https://m.media-amazon.com/images/I/41TypRqPodS._SX425_.jpg", "https://m.media-amazon.com/images/I/71pmjeSkWlL._SX425_.jpg"],
+    "category": "Female young old Makeup EyeLashes",
+    "stock": 90,
+    "link" : "https://amazon.in/Maybelline-Volum-Express-Mascara-10-7ml/dp/B007OWU4QW/ref=sr_1_16?keywords=women+makeup&qid=1653761502&sprefix=women+make%2Caps%2C757&sr=8-16"
+    },
+    
+    {
+    "name": "CTNW Rose Water",
+    "description": "CTNW Steam Distilled Rose Water is formulated with the steam distilled technique which makes it the purest form of Rose Water This rose water works as a face toner, makeup remover and face-mist Rose water for face helps to remove excess oil, acne, pimples    Cleanses our skin by helping in removing all the impurities, making it flawless and glowing    Helps in Maintaining the pH level of the skin and boosts collagen and balances oil on the skin",
+    "price": 231,
+    "images": ["https://m.media-amazon.com/images/I/61vDZ+nn+EL._SX679_.jpg", "https://m.media-amazon.com/images/I/61lmGH+01DL._SX679_.jpg"],
+    "category": "Female 20 45 Face Cleanser",
+    "stock": 90,
+    "link" : "https://www.amazon.in/TNW-Natural-Distilled-Artificial-Fragrance/dp/B07YQXGB29/ref=sr_1_59_sspa?keywords=women%2Bmakeup&qid=1653761502&sprefix=women%2Bmake%2Caps%2C757&sr=8-59-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTkU5WEY2MVhLTFRLJmVuY3J5cHRlZElkPUEwNTYzODk2MUdSN1Y1V1pXR0lTNiZlbmNyeXB0ZWRBZElkPUEwODQzNTg3MVBZRTA5UUNCU01NSCZ3aWRnZXROYW1lPXNwX2J0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1"
+    }
+    ,
+    {
+    "name": "Redensyl Hair Growth",
+    "description": "Promotes Hair Growth - The award winning Redensyl which is scientifically proven to boost hair growth. Non-sticky, better hair manageability and a non-greasy formulation. Reduces Hair Fall - Saw Palmetto Extract is the best-known natural hair fall treatment support. Healthier Scalp - 17 different amino acids which play a helpful role in increasing hair and scalp health. Nourished and Moisturized Hair - Wheatgerm, Jojoba and Castor Oils with fortified Fatty Acids. Prevents Hair Greying - Zinc, Magnesium and other power packed ingredients. Makes hair easier to comb and gives it a healthy shine.",
+    "price": 649,
+    "images": ["https://m.media-amazon.com/images/I/61wY+X5sk-L._SY679_.jpg", "https://m.media-amazon.com/images/I/61gbXoDfAYL._SX522_.jpg"],
+    "category": "Female young old bald",
+    "stock": 70,
+    "link" : "https://www.amazon.in/Ustraa-Hair-Growth-Vitalizer-100ml/dp/B07GR5M1VJ/ref=lp_6623258031_1_3"
+    }
+    
+]

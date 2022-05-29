@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    background-color: #edf2ff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer-copyright {
+    font-weight: 600;
+}
