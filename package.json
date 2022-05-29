@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "heroku-postbuild" : "cd frontend && npm install && npm run build"
+    
   },
   "author": "",
   "license": "ISC",
