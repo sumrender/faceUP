@@ -2,7 +2,7 @@
 
 ## <p align ="center" >Engage yourself with our cutting edge FACE Technology.</p>
 
-<p align ="center" ><img src="https://i.imgur.com/TmY0Fp9.jpg" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="" height="350px" alt="Homepage"/></p>
 
 ## <p  align="center"><a href="https://m-teams.herokuapp.com/">WebApp Link</a></p>
 
