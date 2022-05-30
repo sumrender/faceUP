@@ -5,7 +5,7 @@
 
 <p align ="center" ><img src="https://raw.githubusercontent.com/Sumrender/engage-2022/main/preview/ss1.jpg" height="350px" alt="Homepage"/></p>
 
-## <p  align="center"><a href="<a href="https://face-recog-store.herokuapp.com/">">WebApp Link</a></p>
+## <p  align="center"><a href="https://face-recog-store.herokuapp.com/">WebApp Link</a></p>
 <p>If link is broken click <a href="https://github.com/Sumrender/engage-2022/blob/main/urls.txt">here</a></p>
 
 ## <p  align="center"><a href="https://www.youtube.com/watch?v=Np62QJMPv5A">Presentation Video</a></p>
