@@ -1,4 +1,6 @@
 # link for hosted application
 
+## https://face-recog-store.herokuapp.com/
 
 # link for youTube video
+## https://www.youtube.com/watch?v=Np62QJMPv5A
